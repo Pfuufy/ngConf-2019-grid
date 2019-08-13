@@ -1,0 +1,36 @@
+.sandbox {
+  display: grid;
+  grid-gap: 50px;
+
+  grid-template-columns: 20% 50% 10%;
+
+  background-color: gold;
+  padding: 20px;
+}
+
+.sandbox > * {
+  background-color: white;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 200%;
+  font-weight: bold;
+
+  grid-column: span 3;
+}
+
+.content {
+  grid-column-start: 2;
+}
+
+.bob {
+  width: 100%;
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.footer {
+  grid-column: span 3;
+}
+

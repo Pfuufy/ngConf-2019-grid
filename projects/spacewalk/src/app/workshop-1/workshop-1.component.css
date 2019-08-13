@@ -1,0 +1,48 @@
+.sandbox {
+  background-color: lightblue;
+  padding: 20px;
+
+  display: grid;
+  grid-gap: 20px;
+
+  grid-template-areas:
+    "carl"
+    "header"
+    "main"
+    "pbd"
+    "footer"
+    /* / 300px 500px */
+  ;
+}
+
+.sandbox > * {
+  background-color: white;
+  padding: 20px;
+}
+
+header {
+  grid-area: "header";
+}
+
+main {
+  grid-area: "main";
+}
+
+footer {
+  grid-area: "footer";
+}
+
+.carl {
+  grid-area: "carl";
+  width: 100px;
+}
+
+.pbd {
+  grid-area: "pbd";
+  width: 100px;
+}
+
+img {
+  width: 100%;
+}
+
